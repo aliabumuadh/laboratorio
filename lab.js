@@ -5,7 +5,6 @@ window.onload = function () {
     document.getElementById('vowels').oninput = buscarVocales;
     document.getElementById('counting_vowels').oninput = cuentaVocales;
 }
-
 const vocales =["a", "e", "i", "o", "u"];
 
 function palindromo(){
